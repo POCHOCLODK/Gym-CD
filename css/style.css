@@ -1,0 +1,71 @@
+/* fuentes */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Chivo:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Chivo:ital,wght@0,100..900;1,100..900&family=Happy+Monkey&display=swap');
+/* variables */
+
+:root{
+    --bg-dody : #1f212c;
+    --primary-color : #2c5bff;
+    --fontSize-title : 40px;
+    --fontSize-parrafos : 20px;
+}
+
+/* CLASES DESTACADAS */
+
+#cdestacadas{
+    width: 100%;
+    position: relative;
+    text-align: left;
+    padding: 150px 0 100px;
+    background: var(--bg-dody);
+}
+
+#cdestacadas h2{
+    font-size: var(--fontSize-title);
+    color: #ffffff;
+    font-weight: 700;
+    position: relative;
+    margin-bottom: 70px;
+}
+
+#cdestacadas h2::after{
+    width: 65%;
+    height: 2px;
+    background: #ffffff;
+    position: absolute;
+    content: "";
+    right: 0;
+    top: 52%;
+}
+
+#cdestacadas .card-destacadas{
+    border-radius: 4px;
+    position: relative;
+}
+
+#cdestacadas .card-destacadas img{
+    width: 100%;
+    border-radius: 4px 4px 0 0;
+}
+
+#cdestacadas .card-destacadas .cont-info{
+    background: #292c36;
+    padding: 14px;
+    border-radius: 0 0 4px 4px;
+    transition: .4s;
+}
+
+#cdestacadas .card-destacadas .cont-info:hover{
+    background: var(--primary-color);
+}
+
+.card-destacadas .cont-info h3{
+    font-size: 20px;
+    color: #ffffff;
+    font-weight: 600;
+}
+
+.card-destacadas .cont-info p{
+    color: #c6c6c6;
+    font-size: 16px;
+}
